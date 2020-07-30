@@ -1,0 +1,76 @@
+/* цвет основного текста #4B4F51; */
+/* вторичный цвет текста #00402E; */
+/* акцент #FA5652; */
+/* заголовки #035755;*/
+/* футер почта #415E56; */
+/* цвет нав hover #FB4C47; */
+/* цвет нав #00402E; */
+
+/* цвет фона background: #FFFFFF; */
+/* вторичный цвет фона background: linear-gradient(0deg, rgba(255, 255, 255, 0) -29.64%, #FFF8F8 45.66%, #B57474 45.66%);*/
+/* цвет фона hero */
+/* цвет фона footer  */
+
+/* font-family основной Gelion (Montserrat, sans-serif;) font-weight 400, 500, 600, 700,  */
+/* font-family вторичный Red Hat Display, sans-serif; font-weight 700 ;*/
+:root {
+  --primary-text-color: #4b4f51;
+  --secondary-text-color: #00402e;
+  --accent: #fa5652;
+  --title: #035755;
+  --footer: #415e56;
+  --nav: #00402e;
+  --primary-background-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 221%;
+
+  text-transform: capitalize;
+}
+
+.enumeration {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.main-covid {
+  font-size: 32px;
+  line-height: 122%;
+  color: var(--accent);
+}
+.main-title {
+  font-family: Red Hat Display;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 139%;
+}
+.covid {
+  font-size: 29px;
+  line-height: 124%;
+
+  color: var(--accent);
+}
+.primary-title {
+  font-family: Red Hat Display;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 119%;
+}
+.secondary-title {
+  font-weight: 500;
+  font-size: 47px;
+  line-height: 147%;
+  color: #035755;
+}
