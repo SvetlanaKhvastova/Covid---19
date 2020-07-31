@@ -14,195 +14,269 @@
   <body>
     <header>
       <!-- nav -->
-      <nav>
-        <a href=""
-          ><img src="./images/group.svg" alt="logo covid" /> Covid - 19</a
-        >
-        <ul class="enumeration">
-          <li><a href="#">Overview</a></li>
-          <li><a href="#">Contagion</a></li>
-          <li><a href="#">Symptoms</a></li>
-          <li><a href="#">Prevention</a></li>
-        </ul>
-        <button>Contact</button>
-      </nav>
-      <main>
-        <!-- hero -->
-        <section>
-          <h1 class="main-title">
+      <div class="container">
+        <nav class="nav">
+          <a href="" class="logo"
+            ><img src="./images/group.svg" alt="logo covid" /> Covid - 19</a
+          >
+          <ul class="enumeration nav-list">
+            <li class="order">
+              <a href="#" class="nav-link curent">Overview</a>
+            </li>
+            <li class="order"><a href="#" class="nav-link">Contagion</a></li>
+            <li class="order"><a href="#" class="nav-link">Symptoms</a></li>
+            <li class="order"><a href="#" class="nav-link">Prevention</a></li>
+          </ul>
+          <button class="button first">Contact</button>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- hero -->
+      <div class="container">
+        <section class="warning-main">
+          <h1 class="main-title warning">
             <span class="main-covid">COVID-19 Alert</span> <br />
             Stay at Home quarantine To stop Corona virus
           </h1>
-          <p>
+          <p class="text-first warning-text">
             There is no specific medicine to prevent or treat coronavirus
             disease (COVID-19). People may need supportive care to .
           </p>
-          <button>Let Us Help</button>
+          <button class="button second">Let Us Help</button>
         </section>
-        <!-- about Us -->
-        <section>
-          <img src="" alt="" />
-          <h2 class="primary-title">
-            <span class="covid">What Is Covid-19</span> <br />
-            Coronavirus
-          </h2>
-          <p>
-            Corona viruses are a type of virus. There are many different kinds,
-            and some cause disease. A newly identified type has caused a recent
-            outbreak of respiratory illness now called COVID-19.Lauren Sauer,
-            M.S., the director of operations with the Johns Hopkins Office of
-            Critical Event Preparedness and Response
-          </p>
-          <button>Learn More</button>
-        </section>
+      </div>
 
-        <!-- Contagion -->
-        <section>
-          <h2 class="primary-title">
+      <!-- about Us -->
+      <div class="container">
+        <article class="artical-main">
+          <img
+            src="./images/coronavirus.svg"
+            alt="coronavirus"
+            class="article-image"
+          />
+          <div class="article-part">
+            <h2 class="primary-title article">
+              <span class="covid">What Is Covid-19</span> <br />
+              Coronavirus
+            </h2>
+            <p class="text-second article-point">
+              Corona viruses are a type of virus. There are many different
+              kinds, and some cause disease. A newly identified type has caused
+              a recent outbreak of respiratory illness now called
+              COVID-19.Lauren Sauer, M.S., the director of operations with the
+              Johns Hopkins Office of Critical Event Preparedness and Response
+            </p>
+            <button class="button third">Learn More</button>
+          </div>
+        </article>
+      </div>
+
+      <!-- Contagion -->
+      <div class="container">
+        <section class="contagion-section">
+          <h2 class="primary-title contagion-main">
             <span class="covid">Covid-19</span> <br />
             Contagion
           </h2>
-          <p>
+          <p class="text-third paragraph">
             Corona viruses are a type of virus. There are many different kinds,
             and some cause disease. A newly identified type
           </p>
-          <ul class="enumeration">
-            <li>
-              <img src="./images/air.svg" alt="Girl in glasses" />
-              <h3>Air Transmission</h3>
-              <p>
+          <ul class="enumeration contagion">
+            <li class="contagion-elements">
+              <img
+                src="./images/air.svg"
+                alt="Girl in glasses"
+                class="contagion-images one"
+              />
+              <h3 class="third-title">Air Transmission</h3>
+              <p class="text-fourth">
                 Objectively evolve tactical expertise before extensible
                 initiatives. Efficiently simplify
               </p>
             </li>
-            <li>
-              <img src="./images/human.svg" alt="handshake" />
-              <h3>Human Contacts</h3>
-              <p>
+            <li class="contagion-elements">
+              <img
+                src="./images/human.svg"
+                alt="handshake"
+                class="contagion-images two"
+              />
+              <h3 class="third-title">Human Contacts</h3>
+              <p class="text-fourth">
                 Washing your hands is one of thesimplest ways you can protect
               </p>
             </li>
-            <li>
-              <img src="./images/containted.svg" alt="glass with a straw" />
-              <h3>Containted Objects</h3>
-              <p>
+            <li class="contagion-elements">
+              <img
+                src="./images/containted.svg"
+                alt="glass with a straw"
+                class="contagion-images three"
+              />
+              <h3 class="third-title">Containted Objects</h3>
+              <p class="text-fourth">
                 Use the tissue while sneezing,In this way, you can protect your
                 droplets.
               </p>
             </li>
           </ul>
         </section>
+      </div>
 
-        <!-- symptomps -->
-        <conteiner>
-          <h2 class="primary-title">
+      <!-- symptomps -->
+      <div class="container">
+        <section class="symptomps">
+          <h2 class="primary-title symptomps-main">
             <span class="covid">Covid-19</span> <br />
             Symptomps
           </h2>
-          <p>
+          <p class="text-third">
             Corona viruses are a type of virus. There are many different kinds,
             and some cause disease. A newly identified type has caused a recent
             outbreak of respiratory
           </p>
-          <img src="./images/symptomps.jpg" alt="Covid-19 Symptomps" />
-        </conteiner>
+          <img
+            src="./images/symptomps.jpg"
+            alt="Covid-19 Symptomps"
+            width="1168"
+            class="symptomps-image"
+          />
+        </section>
+      </div>
 
-        <!-- what should we do -->
-        <container>
-          <h2 class="primary-title">
+      <!-- what should we do -->
+      <div class="container">
+        <section class="working">
+          <h2 class="primary-title working-main">
             <span class="covid">Covid-19</span> <br />
             What should we do
           </h2>
-          <p>
+          <p class="text-third working-text">
             Corona viruses are a type of virus. There are many different kinds,
             and some cause disease. A newly identified type has caused
           </p>
-          <ol>
-            <li>
-              <h3 class="secondary-title">wear masks</h3>
-              <p>
-                Continually seize impactful vortals rather than future-proof
-                supply chains. Uniquely exploit emerging niches via fully tested
-                meta-services. Competently pursue standards compliant leadership
-                skills vis-a-vis pandemic "outside the box" thinking.
-                Objectively
-              </p>
+          <ol class="numbering">
+            <li class="working-list">
+              <div class="content">
+                <h3 class="secondary-title">wear masks</h3>
+                <p>
+                  Continually seize impactful vortals rather than future-proof
+                  supply chains. Uniquely exploit emerging niches via fully
+                  tested meta-services. Competently pursue standards compliant
+                  leadership skills vis-a-vis pandemic "outside the box"
+                  thinking. Objectively
+                </p>
+              </div>
               <img src="./images/masks.jpg" alt="wear masks" />
             </li>
-            <li>
-              <h3 class="secondary-title">Wash Your Hands</h3>
-              <p>
-                Continually seize impactful vortals rather than future-proof
-                supply chains. Uniquely exploit emerging niches via fully tested
-                meta-services. Competently pursue standards compliant leadership
-                skills vis-a-vis pandemic "outside the box" thinking.
-                Objectively Continually seize impactful vortals
-              </p>
+            <li class="working-list">
+              <div class="content">
+                <h3 class="secondary-title">Wash Your Hands</h3>
+                <p>
+                  Continually seize impactful vortals rather than future-proof
+                  supply chains. Uniquely exploit emerging niches via fully
+                  tested meta-services. Competently pursue standards compliant
+                  leadership skills vis-a-vis pandemic "outside the box"
+                  thinking. Objectively Continually seize impactful vortals
+                </p>
+              </div>
               <img src="./images/hands.jpg" alt="Wash Your Hands" />
             </li>
-            <li>
-              <h3 class="secondary-title">Use nose - rag</h3>
-              <p>
-                Continually seize impactful vortals rather than future-proof
-                supply chains. Uniquely exploit emerging niches via fully tested
-                meta-services. Competently pursue standards compliant leadership
-                skills vis-a-vis pandemic "outside the box" thinking.
-                Objectively
-              </p>
+            <li class="working-list">
+              <div class="content">
+                <h3 class="secondary-title">Use nose - rag</h3>
+                <p>
+                  Continually seize impactful vortals rather than future-proof
+                  supply chains. Uniquely exploit emerging niches via fully
+                  tested meta-services. Competently pursue standards compliant
+                  leadership skills vis-a-vis pandemic "outside the box"
+                  thinking. Objectively
+                </p>
+              </div>
               <img src="./images/nose.jpg" alt="Use nose - rag" />
             </li>
-            <li>
-              <h3 class="secondary-title">Avoid contacts</h3>
-              <p>
-                Continually seize impactful vortals rather than future-proof
-                supply chains. Uniquely exploit emerging niches via fully tested
-                meta-services. Competently pursue standards compliant leadership
-                skills vis-a-vis pandemic
-              </p>
+            <li class="working-list">
+              <div class="content">
+                <h3 class="secondary-title">Avoid contacts</h3>
+                <p>
+                  Continually seize impactful vortals rather than future-proof
+                  supply chains. Uniquely exploit emerging niches via fully
+                  tested meta-services. Competently pursue standards compliant
+                  leadership skills vis-a-vis pandemic
+                </p>
+              </div>
               <img src="./images/contacts.jpg" alt="Avoid contacts" />
             </li>
           </ol>
-        </container>
-        <!-- Map -->
-        <container>
-          <a href=""></a>
-          <h2>Live Reports</h2>
-          <ul class="enumeration">
-            <li>USA</li>
-            <li>Italy</li>
-            <li>China</li>
-            <li>Spain</li>
-            <li>Germany</li>
-            <li>Iran</li>
-          </ul>
-          <b>Have Question in mind? Let us help you</b>
-          <address>snmonydemo@gmail.com</address>
-          <button>Send</button>
-        </container>
-      </main>
-      <!-- footer -->
-      <footer>
+        </section>
+      </div>
+
+      <!-- Map -->
+      <div class="container">
         <section>
-          <a href=""
+          <a href="">map</a>
+          <h2 class="map-title">Live Reports</h2>
+          <ul class="enumeration">
+            <li class="map-list">USA</li>
+            <li class="map-list">Italy</li>
+            <li class="map-list">China</li>
+            <li class="map-list">Spain</li>
+            <li class="map-list">Germany</li>
+            <li class="map-list">Iran</li>
+          </ul>
+          <ul class="enumeration">
+            <li class="reports">100,392</li>
+            <li class="reports">86,498</li>
+            <li class="reports">81,340</li>
+            <li class="reports">64,059</li>
+            <li class="reports">50,871</li>
+            <li class="reports">32,332</li>
+          </ul>
+          <div class="form">
+            <b class="question"
+              >Have Question in mind? <br />
+              Let us help you</b
+            >
+            <div class="position">
+              <address class="address">snmonydemo@gmail.com</address>
+              <button>Send</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer>
+      <div class="container footer-flex">
+        <div>
+          <a href="" class="logo footer"
             ><img src="./images/group.svg" alt="logo covid" /> Covid - 19</a
           >
-          <ul class="enumeration">
-            <li><a href="#">Overview</a></li>
-            <li><a href="#">Contagion</a></li>
-            <li><a href="#">Symptoms</a></li>
-            <li><a href="#">Prevention</a></li>
+        </div>
+        <div>
+          <ul class="enumeration fotter-list">
+            <li class="order"><a href="#" class="footer-link">Overview</a></li>
+            <li class="order"><a href="#" class="footer-link">Contagion</a></li>
+            <li class="order"><a href="#" class="footer-link">Symptoms</a></li>
+            <li class="order">
+              <a href="#" class="footer-link">Prevention</a>
+            </li>
           </ul>
-          <a href="mailto:2020@Allrightsreservedbypixelspark.co"
+          <a
+            href="mailto:2020@Allrightsreservedbypixelspark.co"
+            class="footer-email"
             >2020 @ All rights reserved by pixelspark.co</a
           >
-          <ul class="enumeration">
+        </div>
+        <div>
+          <ul class="enumeration fotter-social">
             <li><a href="#" aria-label="Facebook">Facebook</a></li>
             <li><a href="#" aria-label="YouTube">YouTube</a></li>
             <li><a href="#" aria-label="V">V</a></li>
             <li><a href="#" aria-label="Twitter">Twitter</a></li>
           </ul>
-        </section>
-      </footer>
-    </header>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
