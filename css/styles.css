@@ -406,10 +406,10 @@ p {
   font-size: 22px;
   line-height: 1.318;
 }
+
 .fotter-list {
   display: flex;
   align-items: center;
-  margin-bottom: 67px;
 }
 .footer-link {
   font-size: 23px;
@@ -421,6 +421,10 @@ p {
 .footer-link:focus {
   color: var(--nav-hover);
 }
+
+.fotter-social {
+  display: flex;
+}
 .footer-email {
   text-align: center;
   font-style: normal;
@@ -428,7 +432,4 @@ p {
   font-size: 23px;
   line-height: 1.217;
   color: var(--footer);
-}
-.fotter-social {
-  display: flex;
 }
