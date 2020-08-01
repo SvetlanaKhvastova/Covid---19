@@ -61,7 +61,7 @@ p {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1471px;
+  width: 1470px;
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid tomato;
@@ -77,7 +77,7 @@ p {
   display: flex;
   align-items: center;
   padding-top: 31px;
-  padding-bottom: 51px;
+  /* padding-bottom: 51px; */
   text-transform: uppercase;
   font-family: Red Hat Display, sans-serif;
   font-weight: 700;
@@ -165,7 +165,7 @@ p {
 }
 /* hero */
 .warning-main {
-  padding-bottom: 207px;
+  /* padding-bottom: 207px; */
   justify-content: flex-start;
   max-width: 641px;
 }
@@ -249,7 +249,7 @@ p {
 /* Contagion */
 .contagion-section {
   text-align: center;
-  padding-bottom: 148px;
+  /* padding-bottom: 148px; */
 }
 .contagion-main {
   margin-bottom: 31px;
@@ -315,7 +315,7 @@ p {
 .symptomps {
   display: inline-block;
   text-align: center;
-  padding-bottom: 117.66px;
+  /* padding-bottom: 117.66px; */
 }
 
 .symptomps-main {
@@ -401,7 +401,8 @@ p {
   align-items: center;
   justify-content: space-between;
 }
-.footer {
+.logo.footer {
+  padding-top: 0;
   font-size: 22px;
   line-height: 1.318;
 }
